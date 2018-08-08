@@ -1,9 +1,9 @@
 from django.urls import path
-from django.views.generic.list import ListView
-from django.views.generic.detail import DetailView
-from .models import Article
+
+from . import views
 
 urlpatterns = [
-   # path(r'', ListView.as_view(queryset=Article.objects.all().order_by("-date")), name="all_news"),
-   # path(r'[1-9][0-9]*', )
+    path(r'<int:post_id>', views.post_details, name="post_details"),
+    path(r'', views.all_news, name="all_news"),
+
 ]

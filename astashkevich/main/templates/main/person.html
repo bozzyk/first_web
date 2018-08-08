@@ -1,0 +1,12 @@
+{% extends "main/wrapper.html" %}
+
+{% block body %}
+
+<p> NAME: {{person.name}} </p>
+<p> EDUCATION: {{person.edu}} </p>
+<p> EXPERIENCE: {{person.exp}} </p>
+<p> MOTTO: {{person.motto}}</p>
+<p> EMAIL: {{person.email}}</p>
+<p> PHOTO: <img src="/media/{{person.photo}}"> </p>
+
+{% endblock body %}

@@ -1,0 +1,8 @@
+{% extends "main/wrapper.html" %}
+
+{% block body %}
+
+<p> DESC: {{area.desc}} </p>
+<p> SERVICES: {{area.services}} </p>
+<p> PERSONS: {%  for person in area.persons.all %} <p> <a href="/team/{{person.id}}"> {{person}} </a> </p>  {% endfor %} </p>
+{% endblock body %}
