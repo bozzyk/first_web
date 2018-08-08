@@ -2,28 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9775747a-c3fc-4842-906f-f3ae25a0be4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/person.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/practice_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astashkevich/news/templates/news/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/astashkevich/astashkevich/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/astashkevich/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/astashkevich/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/astashkevich/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/astashkevich/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.min.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/person.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/person.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/practice_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/practice_details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/practices.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/practices.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/wrapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/news/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/templates/wrapper.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/astashkevich/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/news/templates/news/posts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/news/templates/news/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/news/templates/news/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/astashkevich/news/templates/news/press.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/news/templates/news/press.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/news/templates/news/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/news/templates/news/wrapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/news/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/news/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astashkevich/news/templates/news/wrapper.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,91 +48,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/astashkevich/main/models.py">
+        <entry file="file://$PROJECT_DIR$/astashkevich/news/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="press.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/astashkevich/news/templates/news/press.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/astashkevich/news/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/astashkevich/main/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/astashkevich/main/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="practice_details.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/practice_details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="person.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/person.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="practices.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/practices.html">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/astashkevich/astashkevich/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+            <state relative-caret-position="188">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/team.html">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/astashkevich/main/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+            <state relative-caret-position="149">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -130,6 +89,7 @@
     <findStrings>
       <find>admin</find>
       <find>news</find>
+      <find>Tem</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,34 +98,36 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/home.html" />
         <option value="$PROJECT_DIR$/astashkevich/main/templates/main/main.css" />
         <option value="$PROJECT_DIR$/astashkevich/main/templates/main/press.html" />
         <option value="$PROJECT_DIR$/astashkevich/news/templates/news/posts.html" />
-        <option value="$PROJECT_DIR$/astashkevich/news/templates/news/post.html" />
         <option value="$PROJECT_DIR$/astashkevich/news/templates/news/wrapper.html" />
-        <option value="$PROJECT_DIR$/astashkevich/news/models.py" />
         <option value="$PROJECT_DIR$/astashkevich/news/admin.py" />
         <option value="$PROJECT_DIR$/astashkevich/main/admin.py" />
         <option value="$PROJECT_DIR$/astashkevich/news/templates/news/person.html" />
-        <option value="$PROJECT_DIR$/astashkevich/astashkevich/settings.py" />
-        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/person.html" />
         <option value="$PROJECT_DIR$/astashkevich/main/templates/main/wrapper.html" />
-        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/team.html" />
-        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/contacts.html" />
         <option value="$PROJECT_DIR$/astashkevich/astashkevich/urls.py" />
         <option value="$PROJECT_DIR$/astashkevich/news/urls.py" />
-        <option value="$PROJECT_DIR$/astashkevich/news/templates/news/press.html" />
         <option value="$PROJECT_DIR$/astashkevich/news/views.py" />
-        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/practice_details.html" />
-        <option value="$PROJECT_DIR$/astashkevich/main/models.py" />
-        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/practices.html" />
-        <option value="$PROJECT_DIR$/astashkevich/main/views.py" />
         <option value="$PROJECT_DIR$/astashkevich/main/urls.py" />
+        <option value="$PROJECT_DIR$/astashkevich/main/views.py" />
+        <option value="$PROJECT_DIR$/astashkevich/astashkevich/templates/wrapper.html" />
+        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/team.html" />
+        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/practices.html" />
+        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/person.html" />
+        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/home.html" />
+        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/contacts.html" />
+        <option value="$PROJECT_DIR$/astashkevich/news/templates/news/post.html" />
+        <option value="$PROJECT_DIR$/astashkevich/main/templates/main/practice_details.html" />
+        <option value="$PROJECT_DIR$/astashkevich/news/templates/news/press.html" />
+        <option value="$PROJECT_DIR$/astashkevich/astashkevich/settings.py" />
+        <option value="$PROJECT_DIR$/astashkevich/main/models.py" />
+        <option value="$PROJECT_DIR$/astashkevich/news/models.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -247,6 +209,12 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="first_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first_web" type="462c0819:PsiDirectoryNode" />
+              <item name="astashkevich" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -258,9 +226,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bozzy\Documents\GitHub\first_web\astashkevich\astashkevich\templates" />
       <recent name="C:\Users\bozzy\Documents\GitHub\first_web\astashkevich\news\templates\news" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bozzy\Documents\GitHub\first_web\astashkevich" />
       <recent name="C:\Users\bozzy\Documents\GitHub\first_web\astashkevich\main\templates\main" />
       <recent name="C:\Users\bozzy\Documents\GitHub\first_web\astashkevich\news\templates\news" />
     </key>
@@ -485,13 +455,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/main.css" />
     <entry file="file://$PROJECT_DIR$/astashkevich/news/templates/news/posts.html" />
-    <entry file="file://$PROJECT_DIR$/astashkevich/news/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/astashkevich/news/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -509,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/news/templates/news/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/astashkevich/main/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -526,69 +482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/astashkevich/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="121" column="27" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/wrapper.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/news/templates/news/press.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/person.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/news/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/practice_details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -612,30 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/practices.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/astashkevich/main/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -643,6 +516,120 @@
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/news/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_web/pyvenv.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/person.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/templates/wrapper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/news/templates/news/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/practice_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/news/templates/news/press.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/main/templates/main/practices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/astashkevich/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astashkevich/news/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>

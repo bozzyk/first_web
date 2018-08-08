@@ -2,7 +2,6 @@ from django.db import models
 
 
 class Article(models.Model):
-    type_ = None
     title = models.TextField(help_text="Title")
     quote = models.TextField(help_text="Post quote", blank=True)
     text = models.TextField(help_text="Post text")

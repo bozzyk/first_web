@@ -11,7 +11,6 @@ class Person(models.Model):
     email = models.EmailField(help_text="E-mail")
     exp = models.TextField(help_text="Experience", blank=True)
     edu = models.TextField(help_text="Education", blank=True)
-    area = None
     photo = models.ImageField(blank=True)
 
     def __str__(self):
