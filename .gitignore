@@ -1,3 +1,3 @@
 .idea/
-astashkevich/*.db
+astashkevich/*.sqlite3
 astashkevich/astashkevich/media/

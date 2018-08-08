@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9775747a-c3fc-4842-906f-f3ae25a0be4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/astashkevich/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/astashkevich/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/static/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/person.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/person.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/practice_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/practice_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/practices.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/practices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/main/templates/main/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/main/templates/main/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/templates/wrapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/news/templates/news/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/news/templates/news/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/news/templates/news/press.html" beforeDir="false" afterPath="$PROJECT_DIR$/astashkevich/news/templates/news/press.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astashkevich/news/templates/news/wrapper.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -127,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -629,7 +596,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
