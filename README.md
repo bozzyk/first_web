@@ -1,0 +1,1 @@
+Trying to clone http://astashkevich.com using Django 2.x
