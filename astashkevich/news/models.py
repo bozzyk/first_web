@@ -19,3 +19,6 @@ class NewsType(models.Model):
 
     def __str__(self):
         return self.name
+
+    def news_filter(self, type_):
+        return self.objects.get(name=type_).articles

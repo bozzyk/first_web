@@ -2,16 +2,16 @@
 
 {%block navbar%}
                 <li class="nav-item">
-                    <a class="nav-link" href="/practices">Практики </a>
+                    <a class="nav-link" href="{% url 'practices' %}">Практики </a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/team">Команда</a>
+                    <a class="nav-link" href="{% url 'team' %}">Команда</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/press">Пресс-центр</a>
+                    <a class="nav-link" href="{% url 'all_news' %}">Пресс-центр</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contacts">Контакты</a>
+                    <a class="nav-link" href="{% url 'contacts' %}">Контакты</a>
                 </li>
 {%endblock navbar%}
 
@@ -19,7 +19,7 @@
 {%block body%}
 
 {% for person in staff.all %}
-<p><a href="team/{{person.id}}"> {{person.name}}</a></p>
+<p><a href="{% url 'person_details' person.id %}"> {{person.name}}</a></p>
 
 {% endfor %}
 
