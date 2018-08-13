@@ -1,26 +1,50 @@
 {% extends "wrapper.html" %}
+{% load static %}
 
-{%block navbar%}
-                <li class="nav-item active">
-                    <a class="nav-link" href="{%url 'practices' %}">Практики </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'team' %}">Команда</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'all_news' %}">Пресс-центр</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'contacts' %}">Контакты</a>
-                </li>
-{%endblock navbar%}
+{% block styles %}
+<link rel="stylesheet" href="{% static '/css/main/practices.css' %}">
+{% endblock styles %}
+
+
+{%block navi%}
+        <div class="nav-menu">
+            <a href="{% url 'practices' %}" class="nav-link"> Практики </a>
+            <a href="{% url 'team' %}" class="nav-link"> Команда </a>
+            <a href="{% url 'all_news' %}" class="nav-link"> Пресс-центр </a>
+            <a href="{% url 'contacts' %}   " class="nav-link"> Контакты </a>
+        </div>
+{%endblock navi%}
 
 {%block body%}
 
-{% for practice in practices.all %}
 
-<p> <a href="{% url 'area_details' practice.id%}"> {{practice.name}} </a> </p>
 
-{% endfor %}
+<ul class="practices">
+    <li class="practice-item">
+        <div class="practice-name">
+            Перечень основных практик бюро
+        </div>
+        <div class="practice-desc">
 
+            Наша сильная сторона – совокупный опыт работы партнёров как в адвокатуре и юридическом консалтинге, так и на руководящих юридических должностях крупных российских компаний
+
+        </div>
+    </li>
+
+    {% for practice in practices.all %}
+
+    <li class="practice-item">
+        <a href="{% url 'area_details' practice.id%}" class="practice-link">
+            <div class="practice-name" id="practice.id">
+                {{practice.name}}
+            </div>
+
+            <div class="practice-desc">
+                {{practice.desc}}
+            </div>
+        </a>
+    </li>
+
+    {% endfor %}
+</ul>
 {%endblock body%}

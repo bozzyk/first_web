@@ -1,25 +1,34 @@
 {% extends "wrapper.html" %}
 
-{%block navbar%}
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'practices' %}">Практики </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="{% url 'team' %}">Команда</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'all_news' %}">Пресс-центр</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'contacts' %}">Контакты</a>
-                </li>
-{%endblock navbar%}
+{% block navi %}
+        <div class="nav-menu">
+            <a href="{% url 'practices' %}" class="nav-link"> Практики </a>
+            <a href="{% url 'team' %}" class="nav-link"> Команда </a>
+            <a href="{% url 'all_news' %}" class="nav-link"> Пресс-центр </a>
+            <a href="{% url 'contacts' %}" class="nav-link"> Контакты </a>
+        </div>
+{% endblock navi %}
 
 
 {%block body%}
 
 {% for person in staff.all %}
-<p><a href="{% url 'person_details' person.id %}"> {{person.name}}</a></p>
+<!--<p><a href="{% url 'person_details' person.id %}"> {{person.name}}</a></p>-->
+<div class="person">
+    <a href="{% url 'person_details' person.id %}" class="person-link">
+        <div class="person-photo">
+            <img src="{{person.photo}}" alt="PHOTO">
+        </div>
+        <div class="person-name">
+            <p>{{person.name}}</p>
+            <p>{{person.post}}</p>
+        </div>
+    </a>
+    <div class="practices">
+        <p> Практики </p>
+        <a> {% for practice in person.get_practices %} <a href="{% url 'area_details' practice.id %}"> {{practice.name}} </a> {%endfor%}</p>
+    </div>
+</div>
 
 {% endfor %}
 

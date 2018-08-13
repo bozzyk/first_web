@@ -17,7 +17,7 @@ def all_team(request):
 
 
 def person_details(request, person_id):
-    return render(request, 'main/person.html', {"person": Person.objects.get(pk=person_id)})
+    return render(request, 'main/person.html', {"person": Person.objects.get(pk=person_id), "person_practices":Person.objects.get(pk=person_id).get_practices() })
 
 
 def all_areas(request):

@@ -7,6 +7,7 @@ from django.db import models
 
 class Person(models.Model):
     name = models.CharField(max_length=100, help_text="Name")
+    post = models.CharField(max_length=300, help_text="Post", default="HR")
     motto = models.TextField(help_text="Motto")
     email = models.EmailField(help_text="E-mail")
     exp = models.TextField(help_text="Experience", blank=True)
@@ -15,6 +16,15 @@ class Person(models.Model):
 
     def __str__(self):
         return self.name
+
+    def get_practices(self):
+        practices = []
+        for i in Areas.objects.all():
+            for j in i.persons.all():
+                if self==j:
+                    practices.append(i)
+        return practices
+
 
 
 class Areas(models.Model):
