@@ -1,4 +1,10 @@
 {% extends "wrapper.html" %}
+{% load static %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static '/css/main/team.css' %}">
+{% endblock styles %}
+
 
 {% block navi %}
         <div class="nav-menu">
@@ -11,25 +17,28 @@
 
 
 {%block body%}
-
+<div class="team-container">
 {% for person in staff.all %}
 <!--<p><a href="{% url 'person_details' person.id %}"> {{person.name}}</a></p>-->
+
 <div class="person">
+    <div class="person-inner">
     <a href="{% url 'person_details' person.id %}" class="person-link">
-        <div class="person-photo">
-            <img src="{{person.photo}}" alt="PHOTO">
+        <div class="person-photo" style="background-image: url('{% static person.photo.url %}')">
         </div>
-        <div class="person-name">
-            <p>{{person.name}}</p>
-            <p>{{person.post}}</p>
+        <div>
+            <p class="person-name">{{person.name}}</p>
+            <p class="person-post">{{person.post}}</p>
         </div>
     </a>
-    <div class="practices">
-        <p> Практики </p>
-        <a> {% for practice in person.get_practices %} <a href="{% url 'area_details' practice.id %}"> {{practice.name}} </a> {%endfor%}</p>
+    <div>
+        <p style="padding-bottom: 10px"> Практики </p>
+        <p>{% for practice in person.get_practices %} <a class="practices" href="{% url 'area_details' practice.id %}"> {{practice.name}}.  </a> {%endfor%}</p>
+    </div>
     </div>
 </div>
 
 {% endfor %}
+</div>
 
 {%endblock body%}

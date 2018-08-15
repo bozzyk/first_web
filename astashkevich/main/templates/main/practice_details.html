@@ -1,8 +1,51 @@
 {% extends "wrapper.html" %}
+{% load static %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static '/css/main/practice_details.css' %}">
+{% endblock styles %}
 
 {% block body %}
 
-<p> DESC: {{area.desc}} </p>
+<!--<p> DESC: {{area.desc}} </p>
 <p> SERVICES: {{area.services}} </p>
-<p> PERSONS: {%  for person in area.persons.all %} <p> <a href="{% url 'person_details' person.id %}"> {{person}} </a> </p>  {% endfor %} </p>
+<p> PERSONS: {%  for person in area.persons.all %} <p> <a href="{% url 'person_details' person.id %}"> {{person}} </a> </p>  {% endfor %} </p>-->
+<div class="fixed-image" style="background-image: url('{% static area.photo.url %}')">
+    <div class="quotes-img" style="background-image: url('{% static '/media/quotes.svg' %}')">
+    </div>
+    <div class="quote">
+        {{area.persons.all.0.motto}}
+    </div>
+    <div class="author">
+        {{area.persons.all.0.name}}
+    </div>
+</div>
+    <div class="body">
+        <p class="title-link"><a href="{% url 'practices' %}" >ПРАКТИКИ</a> / {{area.name.upper}}</p>
+        <div class="description"> {{area.desc}}</div>
+        <p class="headline"> Наши услуги</p>
+        <ul>
+            {% for el in area.get_services_as_iterable %}
+            <li class="service">{{el}}</li>
+            {% endfor %}
+        </ul>
+        <p class="headline">Ключевые фигуры практики</p>
+        <div class="persons">
+            {% for person in area.persons.all %}
+            <div class="person-outer">
+            <a href="{% url 'person_details' person.id %}" class="person-link"><div class="person">
+                <div class="person-photo" style="background-image: url('{% static person.photo.url %}')"></div>
+                <div class="person-info">
+                    <p class="person-info-name">{{person.name}}</p>
+                    <p class="person-info-post">{{person.post}}</p>
+                </div>
+            </div></a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+
+
+
 {% endblock body %}

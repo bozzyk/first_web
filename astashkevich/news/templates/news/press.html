@@ -1,34 +1,37 @@
 {% extends "wrapper.html" %}
+{% load static %}
 
+{% block styles %}
+<link rel="stylesheet" href="{% static '/css/news/press.css' %}">
+{% endblock styles %}
 
-{%block navbar%}
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'practices' %}">Практики </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'team' %}">Команда</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="{% url 'all_news' %}">Пресс-центр</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'contacts' %}">Контакты</a>
-                </li>
-{%endblock navbar%}
+{%block navi%}
+        <div class="nav-menu">
+            <a href="{% url 'practices' %}" class="nav-link"> Практики </a>
+            <a href="{% url 'team' %}" class="nav-link"> Команда </a>
+            <a href="{% url 'all_news' %}" class="nav-link"> Пресс-центр </a>
+            <a href="{% url 'contacts' %}   " class="nav-link"> Контакты </a>
+        </div>
+{%endblock navi%}
 
 
 {%block body%}
+<div class="categories">
+    <a href="#"> Все </a>
+    <a href="#"> События </a>
+    <a href="#"> Пресс-релизы </a>
+    <a href="#"> Мнения </a>
+</div>
 
-<a href="#"> Все </a>
-<a href="#"> События </a>
-<a href="#"> Пресс-релизы </a>
-<a href="#"> Мнения </a>
-<p></p>
-
+<div class="news">
+<!--<a href="{{post.id}}">{{post}}</a> <p>-->
 {%for post in news.all%}
-<a href="{{post.id}}">{{post}}</a> <p>
+    <div class="post" style="background-image: url('{% static post.photo.url %}')">
+        {{post.get_type}}
+    </div>
+
 
 {% endfor %}
-
+</div>
 
 {%endblock body%}

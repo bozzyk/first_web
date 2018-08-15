@@ -1,0 +1,61 @@
+.team-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.person-inner {
+    width:75%;
+    border-bottom: 3px solid gray;
+    margin-right: 1%;
+    padding-bottom: 5%;
+}
+
+.person {
+    height: 750px;
+    width: 40%;
+
+    }
+
+
+
+.person-link{
+    text-decoration: none;
+    color: #5a5959;
+    transition: opacity .5s;
+}
+
+.person-link:hover, .practices:hover {
+    opacity: .5;
+}
+
+.person-photo {
+       height: 450px;
+       width: 450px;
+       background-size: cover;
+       background-position: center top;
+       margin-bottom: 3%;
+       margin-top: 5%;
+}
+
+.person-name {
+    font-size: 32px;
+    padding-bottom: 15px;
+
+}
+
+.person-post {
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.practices {
+    text-decoration: none;
+    color: #5a5959;
+    transition: opacity .5s;
+}

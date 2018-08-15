@@ -9,8 +9,14 @@ class Article(models.Model):
     pub_date = models.DateTimeField(help_text="Publication date")
     photo = models.ImageField(blank=True)
 
+
     def __str__(self):
         return self.title
+
+    def get_type(self):
+        for i in NewsType.objects.all():
+            if self.title in i.articles.all():
+                return i.name
 
 
 class NewsType(models.Model):

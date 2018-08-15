@@ -1,12 +1,39 @@
 {% extends "wrapper.html" %}
+{% load static %}
+
+{% block styles %}
+<link rel="stylesheet" href="{%  static '/css/main/person.css'%}">
+{% endblock styles %}
+
 
 {% block body %}
 
-<p> NAME: {{person.name}} </p>
-<p> EDUCATION: {{person.edu}} </p>
-<p> EXPERIENCE: {{person.exp}} </p>
-<p> MOTTO: {{person.motto}}</p>
-<p> EMAIL: {{person.email}}</p>
-<p> PHOTO: <img src="/media/{{person.photo}}"> </p>
+<!--<p> NAME: {{person.name}} </p>-->
+<!--<p> EDUCATION: {{person.edu}} </p>-->
+<!--<p> EXPERIENCE: {{person.exp}} </p>-->
+<!--<p> MOTTO: {{person.motto}}</p>-->
+<!--<p> EMAIL: {{person.email}}</p>-->
+<!--<p> PHOTO: <img src="/media/{{person.photo}}"> </p>-->
+
+<div class="photo" style="background-image: url('{% static person.photo.url %}')"></div>
+<div class="mint-section">
+    <p class="name"> {{person.name}}</p>
+    <div class="motto"> {{person.motto}}</div>
+    <p class="email"> <a href="mailto:{{person.email}}">{{person.email}}</a> </p>
+</div>
+<div class="exp-edu">
+    <p class="headline">Профессиональный опыт</p>
+    <ul class="exp">
+        {% for el in person.get_exp_as_iter %}
+            <li>{{el}}</li>
+        {% endfor %}
+    </ul>
+    <p class="headline">Образование</p>
+    <ul class="edu">
+        {% for el in person.get_edu_as_iter %}
+            <li>{{el}}</li>
+        {% endfor %}
+    </ul>
+</div>
 
 {% endblock body %}

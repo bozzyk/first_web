@@ -25,6 +25,11 @@ class Person(models.Model):
                     practices.append(i)
         return practices
 
+    def get_exp_as_iter(self):
+        return self.exp.split("\n")
+
+    def get_edu_as_iter(self):
+        return self.edu.split("\n")
 
 
 class Areas(models.Model):
@@ -32,6 +37,10 @@ class Areas(models.Model):
     desc = models.TextField(help_text="Area description", blank=True)
     services = models.TextField(help_text="Area services", blank=True)
     persons = models.ManyToManyField(Person, help_text="People in this area", blank=True)
+    photo = models.ImageField(help_text="Practice photo", blank=True)
 
     def __str__(self):
         return self.name
+
+    def get_services_as_iterable(self):
+        return self.services.split("\n")
