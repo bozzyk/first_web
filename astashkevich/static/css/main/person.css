@@ -1,5 +1,4 @@
 .photo {
-    width: 100vw;
     height: 100vh;
     background-size: cover;
     background-position: center top;
@@ -7,7 +6,6 @@
 
 .mint-section {
     background-color: #008588;
-    width: 100%;
     height: 40vh;
     color: #FFF;
     padding-left: 30%;

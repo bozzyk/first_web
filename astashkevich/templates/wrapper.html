@@ -6,13 +6,38 @@
     <title>Адвокатское бюро "Асташкевич и партнеры"</title>
     <link rel="stylesheet" href="{% static '/css/reset.css' %}">
     <link rel="stylesheet" href="{% static '/css/wrapper.css' %}">
+    <style type="text/css">
+        @font-face{
+
+            font-family: 'Geometria';
+
+            url('{% static '/fonts/Geometria.ttf' %}') format('truetype');
+
+            font-weight: normal;
+
+            font-style: normal;
+
+        }
+
+        @font-face{
+
+            font-family: 'Neva-Regular';
+
+            url('{% static '/fonts/Petersburg.ttf' %}') format('truetype');
+
+            font-weight: normal;
+
+            font-style: normal;
+
+        }
+    </style>
     {% block styles %}
     {% endblock styles %}
 </head>
 <body>
     <nav class="header">
         <div class="nav-logo">
-            <a href="/"> <img src="{% static '/media/AP-logo-color-rus.svg' %}" alt=LOGO></a>
+            <a href="/"> <img src="{% static '/media/AP-logo-color-rus.svg' %}" alt=LOGO width="40%" height="40%" class="header-logo"></a>
         </div>
         {% block navi %}
         <div class="nav-menu">
@@ -44,8 +69,9 @@
                 </div>
                 <div class="footer-practices">
                     <ul>
-                        <li><a href="#" class="footer-practice-link">Some practice1</a></li>
-                        <li><a href="#" class="footer-practice-link">Some practice2</a></li>
+                        {% for practice in practices.all %}
+                        <li><a href="{% url 'area_details' practice.id %}" class="footer-practice-link">{{practice.name.upper}} </a></li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <div class="footer-email">

@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 {% extends "wrapper.html" %}
-
 {% load static %}
 
 
+
 {%block styles%}
+<link rel="stylesheet" href="{% static '/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css' %}">
+<link rel="stylesheet" href="{% static '/css/main/home.css' %}">
+<!--<link rel="stylesheet" href="owl-carousel/css/owl.theme.default.css">-->
 {%endblock styles%}
 
-{%block body%}
 
+
+{%block body%}
+<div class="carousel-container">
+    <div class="carousel-navigation">
+        <div class="arrow" id="prev" style="background-image: url('{% static '/media/arrowPrev.svg' %}')"></div>
+        <div class="arrow" id="next" style="background-image: url('{% static '/media/arrowNext.svg' %}')"></div>
+    </div>
+    <div class="owl-carousel" id="carousel">
+        {% for post in news %}
+        <div class="slide" style="background-image: url('{% static post.photo.url %}')">
+            <p class="post-type">{{post.get_type.upper}}</p>
+            <div class="slide-link-div"><a href="{% url 'post_details' post.id %}" class="slide-link">{{post.title}}</a></div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+<div class="title">Об Адвокатском бюро</div>
+<div class="mint">
+    <div class="quotes" style="background-image: url({% static '/media/quotes.svg' %})"></div>
+    <div class="mint-text">Команда Адвокатского Бюро «Асташкевич и партнеры» – это объединение высокопрофессиональных адвокатов, которые имеют многолетний опыт оказания юридических услуг по вопросам корпоративного, налогового и антимонопольного права, международного арбитража и третейского разбирательства, судебного и досудебного разрешения споров в российских и иностранных судах, медиации.</div>
+</div>
+<div class="common-text">
+    <p>Бюро специализируется на консультировании частных клиентов в связи с защитой чести и достоинства, деловой репутации и занимается вопросами наследования и структурирования активов за рубежом, сложными семейными спорами с трансграничным разделом имущества.</p>
+    <p>Ключевыми направлениями отраслевой экспертизы Бюро являются металлургия, нефтегазовая и фармацевтическая отрасли, банковский сектор, недвижимость, строительство и торговля.</p>
+    <p>Адвокатское Бюро возглавляет Анастасия Асташкевич, адвокат с более чем 10-летним опытом реализации крупных проектов в области антимонопольного права и международного коммерческого арбитража.</p>
+    <p>Адвокаты Бюро принимают активное участие в деятельности экспертных организаций, в том числе сотрудничающих с ФАС России по совершенствованию российского антимонопольного законодательства.</p>
+</div>
 {%endblock body%}
+
+{%block scripts%}
+<script src="{% static '/OwlCarousel2-2.3.4/dist/owl.carousel.js' %}"></script>
+<script>
+    var logo_white = "{% static '/media/AP-logo-white-rus.svg' %}";
+    var logo_color = "{% static '/media/AP-logo-color-rus.svg' %}";
+</script>
+<script src="{% static '/js/main/home.js' %}"></script>
+{%endblock scripts%}

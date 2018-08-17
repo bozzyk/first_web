@@ -37,3 +37,11 @@
 </div>
 
 {% endblock body %}
+
+{% block scripts %}
+<script>
+    var logo_white = "{% static '/media/AP-logo-white-rus.svg' %}";
+    var logo_color = "{% static '/media/AP-logo-color-rus.svg' %}";
+</script>
+<script src="{% static '/js/main/person.js' %}"></script>
+{% endblock scripts %}

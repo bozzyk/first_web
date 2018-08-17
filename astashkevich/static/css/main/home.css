@@ -1,5 +1,106 @@
-.example {
-  width: 300px;
-  height: 300px;
-  background-color: red;
+.carousel-navigation{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    margin-top: 53%;
+    margin-left: 20%;
+}
+
+.slide{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 20%;
+    padding-bottom: 10%;
+    padding-right: 30%;
+}
+
+.arrow {
+    background-size: cover;
+    background-position: center top;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+
+.post-type {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.slide-link-div{
+    margin-right: 40%;
+    word-wrap: break-word;
+}
+
+.slide-link {
+    color: #FFF;
+    font-size: 54px;
+    line-height: 52px;
+
+}
+
+.slide-link:hover {
+    text-decoration: none;
+}
+
+.title {
+    height 20vh;
+    color: #686868;
+    font-size: 48px;
+    line-height: 48px;
+    padding-left: 20%;
+    margin-bottom: 45px;
+    margin-top: 25px;
+}
+
+.mint {
+    width: 100%;
+    height: 75vh;
+    background-color: #008588;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quotes {
+    width: 42px;
+    height: 31px;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.mint-text {
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFF;
+    width: 50%;
+    margin-right: 15%;
+    margin-top: 5%;
+
+}
+
+.common-text {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 20%;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #686868;
+
 }

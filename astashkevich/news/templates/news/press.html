@@ -16,22 +16,28 @@
 
 
 {%block body%}
-<div class="categories">
-    <a href="#"> Все </a>
-    <a href="#"> События </a>
-    <a href="#"> Пресс-релизы </a>
-    <a href="#"> Мнения </a>
-</div>
+
+<ul class="categories">
+    <li class="news-item selected"><a href="#" rel="все"> Все </a></li>
+    <li class="news-item"><a href="#" rel="события">События </a></li>
+    <li class="news-item"> <a href="#" rel="пресс-релизы">Пресс-релизы </a></li>
+    <li class="news-item"> <a href="#" rel="мнения">Мнения </a></li>
+</ul>
+
 
 <div class="news">
 <!--<a href="{{post.id}}">{{post}}</a> <p>-->
 {%for post in news.all%}
-    <div class="post" style="background-image: url('{% static post.photo.url %}')">
-        {{post.get_type}}
-    </div>
-
+    <a rel="{{post.get_type.lower}}" href="{{post.id}}" class="post-link"> <div  class="post" style="background-image: url('{% static post.photo.url %}')">
+        <div class="type"> {{post.get_type.upper}} </div>
+        <div class="title"> {{post.title}} </div>
+    </div> </a>
 
 {% endfor %}
 </div>
 
 {%endblock body%}
+
+{% block scripts %}
+<script src="{% static '/js/news/press.js' %}"></script>
+{% endblock scripts %}

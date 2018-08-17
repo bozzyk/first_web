@@ -1,10 +1,28 @@
 {% extends "wrapper.html" %}
+{% load static %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static '/css/news/post.css' %}">
+{% endblock styles %}
 
 {% block body%}
+<div class="block-title">
+    <p class="navigation"><a href="{% url 'all_news' %}">ПРЕСС-ЦЕНТР</a>/{{article.get_type.upper}}</p>
+    <p class="title"> {{article.title}} </p>
+</div>
 
-<p>{{article.title}}</p>
+{% if article.quote != '' %}
+<div class="block-mint">
+    <!--<div class="quote-img" style="background-image: url('{% static '/media/quotes.svg' %}')"></div>-->
+    <p class="quote">{{article.quote}}</p>
+</div>
+{% endif %}
 
-<p>{{article.text}} </p>
+<div class="block-text">
+    {% for paragraph in article.format_text %}
+    <p>{{paragraph}}</p>
+    {% endfor %}
+</div>
 
 
 {% endblock body%}

@@ -1,0 +1,92 @@
+.image-container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid gray;
+
+}
+
+.moscow, .london {
+    width: 20vw;
+    height: 25vh;
+    background-size: cover;
+    bachground-position: center top;
+}
+
+.moscow {
+    margin-left: 15%;
+}
+
+.london {
+    margin-right: 15%;
+}
+
+.address {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+    border-bottom: 2px solid gray;
+}
+
+.inner-address{
+    width: 20vw;
+    height: 25vh;
+}
+
+#inner-1 {
+    margin-left: 15%;
+}
+
+#inner-2 {
+    margin-right: 15%;
+}
+
+.office-location {
+    padding-top: 5%;
+    font-size: 18px;
+    line-height: 27px;
+    color: #686868;
+
+}
+.street {
+    width: 500px;
+    padding-top: 20%;
+    font-size: 56px;
+    line-height: 68px;
+    color: #686868;
+}
+
+.text {
+
+    margin-top: 5%;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686868;
+}
+
+.headline {
+    font-size: 18px;
+    color: #223333;
+    line-height: 24px;
+
+}
+
+li {
+    margin-left: 7%;
+    list-style: disc;
+    line-height: 24px;
+
+}
+
+.common-text{
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+ul {
+    margin-left: 3%;
+}

@@ -1,34 +1,51 @@
 {% extends "wrapper.html" %}
+{% load static %}
 
+{% block styles %}
+<link rel="stylesheet" href="{% static '/css/main/contacts.css' %}">
+{% endblock styles %}
 
-{%block navbar%}
-                <li class="nav-item">
-                    <a class="nav-link" href="{%url 'practices' %}">Практики </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{%url 'team' %}">Команда</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{%url 'all_news' %}">Пресс-центр</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="{%url 'contacts' %}">Контакты</a>
-                </li>
-{%endblock navbar%}
+{% block navi %}
+        <div class="nav-menu">
+            <a href="{% url 'practices' %}" class="nav-link"> Практики </a>
+            <a href="{% url 'team' %}" class="nav-link"> Команда </a>
+            <a href="{% url 'all_news' %}" class="nav-link"> Пресс-центр </a>
+            <a href="{% url 'contacts' %}" class="nav-link"> Контакты </a>
+        </div>
+{% endblock navi %}
 
 {% block body %}
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
-    <p><h1>BODY_CONTACTS</h1>
+
+<div class="image-container">
+    <div class="moscow" style="background-image: url('{% static '/media/moscow-office.svg' %}')"></div>
+    <div class="london" style="background-image: url('{% static '/media/london-office.svg' %}')"></div>
+</div>
+
+<div class="address">
+    <div class="inner-address" id="inner-1">
+        <p class="office-location">Офис в Москве</p>
+        <p class="street">Цветной бульвар, дом 2, подъезд B</p>
+    </div>
+    <div class="inner-address" id="inner-2">
+        <p class="office-location">Офис в Лондоне</p>
+        <p class="street">Улица Пилгрим, дом 11, EC4V 6RN</p>
+    </div>
+</div>
+
+<div class="text">
+    <p class="headline">Пресс-служба</p>
+    <div class="press">
+        <p class="common-text">Пресс-служба АБ "Асташкевич и партнеры" готова помочь: </p>
+        <p><ul>
+            <li>Получить комментарии адвокатов и юристов Бюро по делам, в которых Бюро выступает поверенным, а также по иным вопросам из юридической сферы
+            </li>
+            <li>Рассмотреть поддержку или партнерство мероприятии</li>
+            <li>Организовать интервью или телевизионные съёмки с участием наших адвокатов и юристов и сделать Ваше сотрудничество с Адвокатским Бюро полезным и интересным</li>
+            <li>Согласовать участие представителя(-ей) Бюро в мероприятии в качестве спикера</li>
+        </ul></p>
+        <p class="common-text">Представителей СМИ по вопросам информационного сотрудничества и получения комментариев просим обращаться по электронному адресу pr@astashkevich.com</p>
+    </div>
+    <p class="headline">Карьера</p>
+    <p class="common-text">Если Вас заинтересовала работа в нашем Бюро, Вы можете прислать свое резюме и задать интересующие вас вопросы по электронному адресу pr@astashkevich.com с пометкой - карьера</p>
+</div>
 {% endblock body %}
