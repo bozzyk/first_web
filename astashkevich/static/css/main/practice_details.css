@@ -1,5 +1,6 @@
+body{font-family: Geometria, Helvetica, Arial, sans-serif;}
+
 .fixed-image {
-    position: relative;
     width: 100wh;
     height: 100vh;
     background-size: cover;
@@ -20,6 +21,7 @@
     font-size: 32px;
     line-height: 60px;
     padding-top: 30px;
+    font-family: Neva-Regular, Georgia, serif;
 
 }
 
@@ -35,8 +37,8 @@
     display: block;
     background-size: cover;
     background-position: center top;
-    width: 5%;
-    height: 7%;
+    width: 42px;
+    height: 31px;
 
 }
 
@@ -51,6 +53,10 @@
 
 .title-link, .description, ul {
     padding-left: 10%;
+}
+
+.title-link {
+    padding-left: 25%;
 }
 
 .title-link a {
@@ -74,11 +80,15 @@
     line-height: 30px;
     word-wrap: break-word;
     margin-left:15%;
+     font-family: Neva-Regular, Georgia, serif;
 }
 
 .headline {
     font-size: 48px;
     line-height: 48px;
+    font-family: Neva-Regular, Georgia, serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .service {
@@ -121,6 +131,7 @@
     font-size: 32px;
     line-height: 48px;
     padding-top: 20px;
+    font-family: Neva-Regular, Georgia, serif;
 }
 
 .person-info-post {

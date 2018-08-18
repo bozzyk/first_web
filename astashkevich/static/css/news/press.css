@@ -1,3 +1,5 @@
+body {font-family: Geometria, Helvetica, Arial, sans-serif;}
+
 .news-item a {
     text-decoration: dashed underline #686868;
     color: #686868;
@@ -51,6 +53,7 @@
     font-size 18px;
     line-height: 22px;
     margin: 0px 5px 5px 5px
+    font-family: Geometria Bold, Helvetica, Arial, sans-serif;
 }
 
 .type {

@@ -1,3 +1,6 @@
+body {font-family: Geometria, Helvetica, Arial, sans-serif;}
+
+
 .carousel-navigation{
     width: 100px;
     height: 50px;
@@ -5,13 +8,13 @@
     display: flex;
     justify-content: space-between;
     z-index: 2;
-    margin-top: 53%;
+    margin-top: 43%;
     margin-left: 20%;
 }
 
 .slide{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-position: center top;
     display: flex;
@@ -41,6 +44,7 @@
 .slide-link-div{
     margin-right: 40%;
     word-wrap: break-word;
+    font-family: Neva-Regular, Georgia, serif;
 }
 
 .slide-link {
@@ -62,6 +66,7 @@
     padding-left: 20%;
     margin-bottom: 45px;
     margin-top: 25px;
+    font-family: Neva-Regular, Georgia, serif;
 }
 
 .mint {
@@ -70,6 +75,8 @@
     background-color: #008588;
     display: flex;
     justify-content: space-around;
+    font-family: Neva-Regular, Georgia, serif;
+    padding-bottom: 5%;
 }
 
 .quotes {

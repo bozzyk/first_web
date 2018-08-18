@@ -8,27 +8,13 @@
     <link rel="stylesheet" href="{% static '/css/wrapper.css' %}">
     <style type="text/css">
         @font-face{
-
             font-family: 'Geometria';
-
-            url('{% static '/fonts/Geometria.ttf' %}') format('truetype');
-
-            font-weight: normal;
-
-            font-style: normal;
-
+            src: url('{% static '/fonts/Geometria.ttf' %}');
         }
 
         @font-face{
-
             font-family: 'Neva-Regular';
-
-            url('{% static '/fonts/Petersburg.ttf' %}') format('truetype');
-
-            font-weight: normal;
-
-            font-style: normal;
-
+            url('{% static '/fonts/Petersburg.ttf' %}';
         }
     </style>
     {% block styles %}
@@ -70,7 +56,7 @@
                 <div class="footer-practices">
                     <ul>
                         {% for practice in practices.all %}
-                        <li><a href="{% url 'area_details' practice.id %}" class="footer-practice-link">{{practice.name.upper}} </a></li>
+                        <li><a href="{% url 'area_details' practice.id %}" class="footer-practice-link">{{practice.name}} </a></li>
                         {% endfor %}
                     </ul>
                 </div>

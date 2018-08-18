@@ -1,3 +1,5 @@
+body {font-family: Geometria, Helvetica, Arial, sans-serif;}
+
 .image-container {
     margin-top: 10%;
     display: flex;
@@ -26,6 +28,7 @@
     justify-content: space-around;
     padding-bottom: 10%;
     border-bottom: 2px solid gray;
+    font-family: Neva-Regular, Georgia, serif;
 }
 
 .inner-address{
@@ -73,7 +76,7 @@
 
 }
 
-li {
+.body-li {
     margin-left: 7%;
     list-style: disc;
     line-height: 24px;

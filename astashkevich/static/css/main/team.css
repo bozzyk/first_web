@@ -1,3 +1,7 @@
+body {
+    font-family: Geometria, Helvetica, Arial, sans-serif;
+}
+
 .team-container {
     margin-top: 10%;
     width: 85%;
@@ -47,12 +51,14 @@
 .person-name {
     font-size: 32px;
     padding-bottom: 15px;
+    font-family: Neva-Regular, Georgia ,serif;
 
 }
 
 .person-post {
     font-size: 24px;
     padding-bottom: 15px;
+    font-family: Neva-Regular, Georgia, serif;
 }
 
 .practices {

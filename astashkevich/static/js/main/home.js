@@ -93,7 +93,7 @@ $(document).ready(function(){
         items: 1,
         loop: true,
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 8000,
         nav: false,
     });
 
